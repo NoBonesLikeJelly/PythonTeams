@@ -6,6 +6,6 @@ message = pymsteams.connectorcard("https://masseyuni.webhook.office.com/webhookb
 message.text("Someone has pressed the button and requires your attention!!!")
 
 button = Button(3)
-
-button.when_pressed = message.send()
+button.wait_for_press()
+message.send()
 

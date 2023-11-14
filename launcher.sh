@@ -2,7 +2,7 @@
 # launcher.sh
 # navigate to home directory, then to this directory, then execute python script, then back home
 
-cd /home/pi/
+cd /home/pi/PythonTeams
 source env/bin/activate
 cd /home/pi/PythonTeams
 python PushButtonSend.py
