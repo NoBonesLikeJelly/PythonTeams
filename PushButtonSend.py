@@ -7,5 +7,6 @@ message.text("Someone has pressed the button and requires your attention!!!")
 
 button = Button(3)
 button.wait_for_press()
+print("pressed!")
 message.send()
 
